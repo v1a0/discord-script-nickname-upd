@@ -3,7 +3,7 @@
 This script is updating your discord nickname on server every 3 seconds. Might be useful if admin changing your nickname time to time.
 
 ## How to run
-Clone `discord-nickname-script.js` and edit it
+Clone `discord-script-nickname-upd.js` and edit it
 
 ```javascript
 nickname = "YOUR_NICKNAME";  // Enter your nickname here
