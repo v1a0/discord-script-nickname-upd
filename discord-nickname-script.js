@@ -1,6 +1,8 @@
-function MainLoop () {           
-   setTimeout(function () {  
-nickname = "WolframAlpha";
+function MainLoop () {
+   setTimeout(function () {
+nickname = "YOUR_NICKNAME";  // Enter your nickname here
+im_admin = 1;                // 1 == YES,   0 == NO
+
 
 document.querySelector('.wrapper-1BJsBx.selected-bZ3Lue').dispatchEvent(new MouseEvent('contextmenu', {bubbles:true}))
 
@@ -24,13 +26,13 @@ if (tracker) {
 
 
 input.dispatchEvent(event);
-document.querySelectorAll('.button-38aScr.lookFilled-1Gx00P.colorBrand-3pXr91.sizeMedium-1AC_Sl.grow-q77ONN')[0].dispatchEvent(new MouseEvent('click', {bubbles:true}))
+document.querySelectorAll('.button-38aScr.lookFilled-1Gx00P.colorBrand-3pXr91.sizeMedium-1AC_Sl.grow-q77ONN')[im_admin].dispatchEvent(new MouseEvent('click', {bubbles:true}))
 
 
 
-      MainLoop(); 
-      
+      MainLoop();
+
    }, 3000)
 }
 
-MainLoop();                     
+MainLoop();
